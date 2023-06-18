@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("backgroun.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333333;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+}
+
+.content {
+  display: flex;
+  max-width: 800px;
+  width: 100%;
+}
+
+.left-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profil img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.yazi {
+  text-align: center;
+}
+
+.yazi h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.right-section {
+  flex: 2;
+  padding: 16px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+.yetenekler {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.yetenek {
+  background-color: #ccc;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .left-section {
+    margin-bottom: 32px;
+  }
+}
