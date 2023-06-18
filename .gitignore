@@ -1,0 +1,9 @@
+# img
+*.img
+*.png
+*.jpg
+/img
+
+#log
+*.log
+password.txt
