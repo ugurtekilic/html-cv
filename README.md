@@ -1,5 +1,5 @@
-## Portfolymu Oluşturduğum Html ve Css Kodlar
+# Portfolymu Oluşturduğum Html ve Css Kodlar
 
-# web siteme burada ulaşabilirsiniz
+## web siteme burada ulaşabilirsiniz
 
-[Uğur-Tekkılıç] (https://ugur-tekkilic.epizy.com)
+[Portfolyom](http://ugur-tekkilic.epizy.com/)
